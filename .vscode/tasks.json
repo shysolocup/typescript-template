@@ -9,7 +9,7 @@
         },
 
         {
-            "command": "node ${cwd}/index.js",
+            "command": "node ${cwd}/build//index.js",
             "label": "launch",
             "type": "shell",
             "dependsOn": [ "compile_ts" ]
